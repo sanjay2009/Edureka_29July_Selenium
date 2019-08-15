@@ -11,7 +11,7 @@ public class BasicSeleniumCommands {
 		System.setProperty("webdriver.chrome.driver", "D:\\Sanjay\\Edreka\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		driver.close();
+		driver.quit();
 		
 	}
 
